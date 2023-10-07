@@ -1,0 +1,313 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #000000;
+}
+
+  
+ 
+  .nav-bar a {
+    float: left;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .nav-bar a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav-bar {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 10px;
+    position: sticky;
+  }
+  .nav-bar a:hover {
+    color: rgb(255, 255, 0);
+  }
+  .nav-right {
+    float: right;
+  }
+  
+  
+  @media screen and (max-width: 200px) {
+    .nav-bar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .nav-right {
+      float: none;
+    }
+  }
+  
+
+  .background {
+    height: 100vh;
+    width: 100%;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        background-image: url("https://wallpaperaccess.com/full/542842.jpg");
+    }
+    20%{
+        background-image: url("https://wallpaperaccess.com/full/1595816.jpg");
+    }
+    40%{
+        background-image: url("https://wallpaperaccess.com/full/42415.jpg");
+    }
+    60%{
+        background-image: url("https://wallpaperaccess.com/full/1245245.jpg");
+    }
+    80%{
+        background-image: url("https://wallpaperaccess.com/full/4943720.jpg");
+    }
+    100%{
+        background-image: url("https://wallpaperaccess.com/full/1390643.jpg");
+    }
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 50px;
+  }
+
+.box-1 {
+    
+    position: absolute;
+    top: 50%;
+    color:white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+    left: 5%;
+    
+
+}
+
+h6{
+    position: absolute;
+    top: 80%;
+    color:white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+    right: 5%;
+
+}
+
+#checkbox{
+    position: absolute;
+    top: 79.5%;
+    right: -20%;
+
+    
+}
+
+h5 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.box-2 {
+    display:flex;
+    background-image: url("https://imgs.search.brave.com/rOpl9GVsAhlytXIoDbSNrDLQ-MFFk-OIIL6qYHKJdOE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NDI1MTcxL3Bob3Rv/L2hvdC1mcmVzaC1h/c3BoYWx0LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1iMGx6/RlF2UDBJd2MzdWRE/SlA0dEFMQ0h2c21p/NTBQQkpvLVcxMjRE/OUIwPQ");
+   border-radius: 10px;
+   font-size: medium;
+   width: 600px;
+   gap: 5px;
+   position: absolute;
+   right: 2%;
+   top: 110%
+   
+   
+   
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    gap:15px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: left;
+    
+    
+    
+}
+
+.box-3 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2%;
+    top: 110%;
+    color: white;
+    text-align: center;
+    background: rgb(54, 53, 53);
+    border-radius: 10px;
+
+
+
+
+}
+
+.form-box {
+	background-color:rgba(0, 0, 0, 0.543);
+	padding: 40px;
+	border-radius: 15px;
+	position: absolute; 
+    margin: auto auto;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	width: 400px;
+	height: 430px;
+    justify-content: center;
+}
+.form-box .header-text {
+	font-size: xx-large;
+	font-weight: bold;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.form-box input {
+	margin: 10px 0px;
+	 border: none; 
+	padding: 5px; 
+	border-radius: 2px;
+	width: 100%;
+	font-size: 18px;
+	
+}
+.form-box label {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 10px;
+	top: 5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	
+}
+
+h4{
+    color: white;
+}
+
+.lap-table {
+    position: relative;
+    width:700px;
+    margin-left: auto;
+	margin-right: -2;
+    margin-top: 95%;
+    color: white;
+
+}
+
+.box-4 {
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    left: 2%;
+    top: 171%;
+    color: white;
+    text-align: center;
+    background: rgb(54, 53, 53);
+    border-radius: 10px;
+    width: 625px;
+}
+
+.nur-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:2%;
+    
+}
+
+.dropdown-bar {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    padding: 0;
+    margin:0;
+    top: 3%;
+    right: 25%;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover {
+    background: #858585;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.box-5 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    right: 101%;
+    top: 110%;
+    color: white;
+    text-align: center;
+    background: rgb(54, 53, 53);
+    border-radius: 10px;
+
+
+
+
+}
+
+
+
+
+
+
